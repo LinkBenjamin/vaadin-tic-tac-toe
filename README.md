@@ -1,7 +1,6 @@
-# My Todo
+# Vaadin tic-tac-toe
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+I wanted to learn how to use Vaadin to build a web app, and I thought hey, why not play a little Tic-Tac-Toe?  While it doesn't use many Vaadin components, this project *does* provide a good look at what Vaadin can do and how easy it is to build a web UI in Java.
 
 ## Running the application
 
@@ -27,6 +26,7 @@ Once the JAR file is built, you can run it using
 - `MainLayout.java` in `src/main/java` contains the navigation setup (i.e., the
   side/top bar and the main menu). This setup uses
   [App Layout](https://vaadin.com/docs/components/app-layout).
+- `models` package in `src/main/java` contains the code for my tic-tac-toe game, which is then references in the MainView class.
 - `views` package in `src/main/java` contains the server-side Java views of your application.
 - `views` folder in `frontend/` contains the client-side JavaScript views of your application.
 - `themes` folder in `frontend/` contains the custom CSS styles.
